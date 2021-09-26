@@ -1,0 +1,4 @@
+org\acme\GreetingResource.class
+org\acme\config\MyAppConfig.class
+org\acme\security\OAuthSecurity.class
+org\acme\security\SecurityContextFilter.class

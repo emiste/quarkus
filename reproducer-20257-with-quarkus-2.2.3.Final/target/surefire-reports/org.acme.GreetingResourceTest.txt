@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.GreetingResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.633 s <<< FAILURE! - in org.acme.GreetingResourceTest
+org.acme.GreetingResourceTest.testHello1Endpoint  Time elapsed: 0.043 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: Failed to start quarkus
+Caused by: java.lang.RuntimeException: Error injecting org.acme.config.MyAppConfig org.acme.security.SecurityContextFilter.config
+Caused by: java.util.NoSuchElementException: SRCFG00027: Could not find a mapping for org.acme.config.MyAppConfig
+
